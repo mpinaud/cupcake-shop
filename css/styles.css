@@ -1,14 +1,64 @@
-h1 {
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.heading {
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 3em;
+  font-size: 2rem;
   color: #FF1493;
 }
-h2 {
+div.heading img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: 0;
+}
+div.heading {
+  position: relative;
+}
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 85px;
+  left: 420px;
+  z-index: 10;
+}
+div.heading h2 {
+  font-family: 'Lobster', cursive;
+  font-size: .9em;
   text-align: center;
   color: #ff49ab;
+  letter-spacing: 2px;
+  margin: 0;
+  position: absolute;
+  top: 285px;
+  left: 305px;
 }
 .cupcake {
   font-weight: bold;
   font-size: 1.4em;
+  padding: 5px;
+  border: 2px solid #00BFFF;
+}
+.font-styles {
+  font-weight: bold;
+  font-style: italic;
+}
+.columns {
+  width: 44%;
+  float: left;
+  padding: 0 10px;
+}
+.column-right {
+  width: 44%;
+  float: right;
+  padding: 0 10px;
+}
+.centered {
+  text-align: center;
+  padding: 10px 10px;
+}
+.wrap {
+  width: 90%;
+  margin: 0 auto;
 }
