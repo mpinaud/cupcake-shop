@@ -83,3 +83,60 @@ div.heading h2 {
 .unknown {
   font-style: italic;
 }
+@media screen and (min-width: 300px) and (max-width: 480px){
+  p.centered {
+    display: none;
+  }
+  .heading h1 {
+    top: 0;
+    left: 100px;
+    font-size: 0.9em;
+  }
+  div.heading h2 {
+    top: 100px;
+    left: 20px;
+    font-size: 0.5em;
+  }
+  .column-left {
+    width: 100%;
+    float:  none;
+    padding: 0;
+  }
+  .column-right {
+    width: 100%;
+    float:  none;
+    padding: 0;
+  }
+  .imgs-styling {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 550px){
+  p.centered {
+    display: none;
+  }
+  .heading h1 {
+    top: 0;
+    left: 140px;
+    font-size: 0.9em;
+  }
+  div.heading h2 {
+    top: 100px;
+    left: 60px;
+    font-size: 0.5em;
+  }
+  .column-left {
+    width: 100%;
+    float:  none;
+    padding: 0;
+  }
+  .column-right {
+    width: 100%;
+    float:  none;
+    padding: 0;
+  }
+  .imgs-styling {
+    margin: auto;
+  }
+
+} 
